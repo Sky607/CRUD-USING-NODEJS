@@ -97,8 +97,8 @@ Tasks Updated Successfully
   "message": "Task with ID 1 has been deleted."
 }
 ```
-##User Authentication API
-###POST /register
+## User Authentication API
+### POST /register
 Register a new user with a username and password. The password will be hashed using bcrypt.
 
 **Request Example:**
@@ -114,7 +114,7 @@ Register a new user with a username and password. The password will be hashed us
   "message": "User registered successfully."
 }
 ```
-###POST /login
+### POST /login
 Authenticate a user and return a JWT token if successful. The user needs to provide the username and password.
 
 **Request Example:**
@@ -130,7 +130,7 @@ Authenticate a user and return a JWT token if successful. The user needs to prov
   "token": "your-jwt-token-here"
 }
 ```
-###GET /profile
+### GET /profile
 This endpoint is protected and can only be accessed by authenticated users. The user must provide a valid JWT token in the Authorization header.
 
 **Request Example:**
@@ -163,7 +163,7 @@ Select the file to upload.
   "message": "File uploaded successfully!"
 }
 ```
-##Technologies Used
+## Technologies Used
 1. **Node.js:**  JavaScript runtime for building the API.
 2. **JWT (jsonwebtoken):** For user authentication via JSON Web Tokens.
 3. **Bcrypt.js:** For hashing user passwords.
@@ -175,11 +175,11 @@ clone the project
 ```
 git clone https://github.com/Sky607/CRUD-USING-NODEJS.git
 ```
-to install all dependicies run the below command.It will install all the required pacakeges from the pacakage.json
+To install all dependicies run the below command.It will install all the required pacakeges from the pacakage.json
 ```
 npm install
 ```
-to start the project run the below command and open the shown localhost url in the browser
+To start the project run the below command and open the shown localhost url in the browser
 ```npm start ``` or ```nodemon <file name> ```
 
 
