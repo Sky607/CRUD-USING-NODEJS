@@ -10,7 +10,7 @@ This project includes a REST API for managing tasks, user authentication, and fi
 - [Tasks API](#tasks-api)
   - [POST /tasks](#post-tasks)
   - [GET /tasks](#get-tasks)
-  - [GET /tasks/:id](#get-tasksid)
+  - [GET /tasks/:id](#get-tasks)
   - [PUT /tasks/:id](#put-tasksid)
   - [DELETE /tasks/:id](#delete-tasksid)
 - [User Authentication API](#user-authentication-api)
